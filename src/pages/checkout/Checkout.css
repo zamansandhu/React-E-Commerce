@@ -1,0 +1,70 @@
+.main-checkout {
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addres {
+    display: flex;
+    margin: 10px;
+    min-width: 20%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.updated-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+}
+
+.check-out {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+    border-radius: 10px;
+    right: 100px;
+}
+
+.checkout-btn {
+    background-color: #0c2340;
+    min-width: 300px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.checkout-btn:hover {
+    background-color: gold;
+    color: #0c2340;
+}
+
+.edit-address {
+    background-color: #0c2340;
+    color: white;
+    border-radius: 5px;
+}
+
+.delete-address {
+    background-color: #0c2340;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-new-address {
+    background-color: #0c2340;
+    color: white;
+    border-radius: 5px;
+}

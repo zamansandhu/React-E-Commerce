@@ -1,0 +1,60 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: '10px';
+
+
+
+}
+
+.form input.forminput {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+
+}
+
+.form button.apply-dummy,
+.login {
+    background-color: #0C2340;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button.login:hover {
+    background-color: gold;
+    color: black;
+}
+
+button.apply-dummy:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    min-width: 400px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+
+
+}

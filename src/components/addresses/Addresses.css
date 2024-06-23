@@ -1,0 +1,76 @@
+.address-container {
+    min-height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.form-data {
+    min-width: 90vw;
+    padding: 20px;
+    min-height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+.addresses {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+
+}
+
+
+.form-data input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.edit-button {
+    margin-top: 10px;
+}

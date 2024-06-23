@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Playfair+Display:ital@0;1&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+
+.main-menu {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99999990;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    display: flex;
+}
+
+
+.menu-left {
+    min-width: 300px;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    overflow-y: auto;
+}
+
+.menu-left::-webkit-scrollbar {
+    width: 10px;
+}
+
+.menu-left::-webkit-scrollbar-track {}
+
+.menu-left::-webkit-scrollbar-thumb {
+    border-radius: 80px;
+    background-color: #0C2340;
+}
+
+
+
+.close-menu {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.menu-left ul {
+    padding: 20px;
+}
+
+.menu-left ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-left ul li {
+    padding: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.menu-left ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-left ul h2 {
+    display: inline;
+    background-color: #0C2340;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.menu-left .welcome h1 {
+    background-color: #0C2340;
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.welcome .user {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.order {
+    padding-top: 20px;
+}
+
+.menu-right {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+
+@media screen and (max-width:600px) {
+    .menu-left {
+        width: 250px;
+    }
+}
